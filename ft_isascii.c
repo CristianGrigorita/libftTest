@@ -29,4 +29,4 @@ int main()
 	printf("este ascii: %c \n", ft_isascii(i));
 	printf("este ascii conform man: %c \n", isascii(i));
 	return (0);
-}
+} 
