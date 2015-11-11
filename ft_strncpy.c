@@ -1,4 +1,4 @@
-char	*ft_strncpy(char *dest, char *src, unsigned int n)
+char	*ft_strncpy(char *dest,const char *src, size_t n)
 {
 	i = 0;
 	while (i < n && src != '\0')

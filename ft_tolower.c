@@ -15,11 +15,11 @@
 #include <ctype.h>
 #include <xlocale.h>
 
-char	ft_tolower(char i)
+int	ft_tolower(int c)
 {
-		if (i >= 'A' && i <= 'Z')
-			i = i + 32;
-	return(i);
+		if (c >= 'A' && c <= 'Z')
+			c = c + 32;
+	return(c);
 }
 
 

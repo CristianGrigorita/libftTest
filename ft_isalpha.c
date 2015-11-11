@@ -13,7 +13,7 @@
 #include <ctype.h>
 #include <stdio.h>
 
-char	ft_isalpha(char c)
+int	ft_isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return(1);

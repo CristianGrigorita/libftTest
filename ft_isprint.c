@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-char	ft_isprint(char c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (0);
