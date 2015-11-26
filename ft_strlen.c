@@ -1,3 +1,6 @@
+
+#include <string.h>
+
 size_t	ft_strlen(const char *str)
 {
 	int i;
@@ -5,7 +8,7 @@ size_t	ft_strlen(const char *str)
 	i = 0;
 	while (str[i])
 	{
-	i++;
+		i++;
 	}
 	return (i);
 }

@@ -20,13 +20,3 @@ int	ft_isprint(int c)
 		return (0);
 	return(1);
 }
-
-int	main ()
-{
-	char i;
-
-	i = '~';
-	printf("se printeaza: %c \n", ft_isprint(i));
-	printf("se printeaza prin man: %c \n", isprint(i));
-	return (0);
-}

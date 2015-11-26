@@ -19,17 +19,3 @@ int	ft_isalpha(int c)
 		return(1);
 	return (0);
 }
-
-int	main ()
-{
-	char i;
-	int z;
-	int x;
-
-	i = '1';
-	z = ft_isalpha(i);
-	x = isalpha(i);
-	printf("Este alpha: %c \n", z);
-	printf("Este alpha man: %c \n", x);
-//	return (0);
-}

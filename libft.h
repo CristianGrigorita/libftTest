@@ -5,7 +5,6 @@
 # include <string.h>
 # include <stdlib.h>
 # include <string.h>
-# include "libprt.h"
 
 void	ft_bzero(void *s, size_t n);
 char	*ft_itoa(int n);

@@ -15,16 +15,7 @@
 
 int	ft_isdigit(int c)
 {
-	if (c >= '0' && c <= '9');
+	if (c >= '0' && c <= '9')
 		return (1);
 	return (0);
-}
-
-int	main()
-{
-	int i;
-
-	i = "A";
-	printf("este numar: %d \n", ft_isdigit(i));
-	printf("este numar prin man: %d \n", isdigit(i));
 }

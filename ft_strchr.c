@@ -26,16 +26,3 @@ char	*ft_strchr(const char *s, int c)
 	else
 			return (NULL);
 }
-
-int	main ()
-{
-	char str[] = "this is it";
-	char *a;
-	char *j;
-
-	a = strchr (str, 's');
-	j = ft_strchr(str, 'h');
-	printf("dupa functia din man: %s\n", a);
-	printf("dupa ft: %s\n", j);
-	return (0);
-}

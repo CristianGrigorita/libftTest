@@ -38,16 +38,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-int main ()
-{
-	char str[] = "this is it";
-	char *a;
-	char *j;
-
-	a = strrchr (str, 's');
-	j = ft_strrchr (str, 'i');
-	printf("Dupa man: %s\n", a);
-	printf("dupa ft: %s\n", j);
-	return (0);
-}

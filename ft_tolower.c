@@ -21,14 +21,3 @@ int	ft_tolower(int c)
 			c = c + 32;
 	return(c);
 }
-
-
-int	main()
-{
-	char i;
-
-	i = '2';
-	printf("str este: %c \n", ft_tolower(i));
-	printf("str man este: %c \n", tolower(i));
-	return (0);
-}

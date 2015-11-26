@@ -21,14 +21,3 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return(c);
 }
-
-
-int	main()
-{
-	char i;
-
-	i = '2';
-	printf("c este: %c \n", ft_toupper(i));
-	printf("c este: %c \n", toupper(i));
-	return (0);
-}

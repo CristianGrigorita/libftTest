@@ -10,7 +10,7 @@ char	*ft_strdup(char const *s1)
 	if (s2 != NULL)
 	{
 		ft_strcpy(s2, s1);
-		return (s2)
+		return (s2);
 	}
 	else
 		return (0);
