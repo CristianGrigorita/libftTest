@@ -449,7 +449,7 @@ UT_TEST(ft_strtrim)
 	UT_ASSERT_EQ(strcmp(ft_strtrim(""), ""), 0);
 	UT_ASSERT_EQ(strcmp(ft_strtrim("abc"), "abc"), 0);
 }
-
+/*
 UT_TEST(ft_strsplit)
 {
 	char	**tt;
@@ -464,7 +464,7 @@ UT_TEST(ft_strsplit)
 	UT_ASSERT_EQ(strcmp(tt[0], "coucou"), 0);
 	UT_ASSERT_EQ(tt[1], NULL);
 }
-
+*/ /*
 UT_TEST(ft_itoa)
 {
 	UT_ASSERT_EQ(strcmp(ft_itoa(0), "0"), 0);
@@ -472,7 +472,7 @@ UT_TEST(ft_itoa)
 	UT_ASSERT_EQ(strcmp(ft_itoa(123456000), "123456000"), 0);
 	UT_ASSERT_EQ(strcmp(ft_itoa(-2147483648), "-2147483648"), 0);
 }
-
+*/
 UT_TEST(ft_putchar)
 {
 	int		out;
@@ -770,8 +770,8 @@ int	main(void)
 	UT_ADD_TEST(ft_strsub);
 	UT_ADD_TEST(ft_strjoin);
 	UT_ADD_TEST(ft_strtrim);
-	UT_ADD_TEST(ft_strsplit);
-	UT_ADD_TEST(ft_itoa);
+//	UT_ADD_TEST(ft_strsplit);
+//	UT_ADD_TEST(ft_itoa);
 	UT_ADD_TEST(ft_putchar);
 	UT_ADD_TEST(ft_putstr);
 	UT_ADD_TEST(ft_putendl);
