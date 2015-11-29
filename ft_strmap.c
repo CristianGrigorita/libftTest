@@ -9,11 +9,11 @@ char	*ft_strmap(char const *s, char  (*f)(char))
 	i = 0;
 	if (!(fstr = (char*)malloc(sizeof(*fstr) * (ft_strlen(s) + 1))))
 		return (NULL);
-	while (s1[i])
+	while (s[i])
 	{
 		fstr[i] = f(s[i]);
 		i++;
 	}
-	new[i] = '\0';
+	fstr[i] = '\0';
 	return (fstr);
 }

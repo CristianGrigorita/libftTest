@@ -10,7 +10,7 @@
 ** Part 2 
 */
  
-#define NO_PART_2
+// #define NO_PART_2
 
 /*
 ** Same for bonus :
