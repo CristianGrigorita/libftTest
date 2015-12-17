@@ -59,6 +59,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strsub(char const *s, unsigned int start, size_t len);
 char	*ft_strmap(char const *s, char (*f)(char));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-
+char	**ft_strsplit(const char *s, char c);
+char	*ft_itoa(int n);
 
 #endif
