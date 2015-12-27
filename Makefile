@@ -13,9 +13,13 @@ SRCS =  ft_putchar.c ft_strequ.c ft_strnstr.c \
 	ft_strncmp.c  ft_memset.c ft_strcpy.c ft_strncpy.c \
 	ft_strdel.c ft_strnequ.c ft_putendl.c ft_strmapi.c\
 	ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_strtrim.c \
-	ft_putnbr.c ft_putstr.c ft_striter.c ft_strclr.c ft_strmap.c \
+	ft_putnbr.c ft_putstr.c ft_striter.c ft_strclr.c \
+	ft_strmap.c ft_lstadd.c ft_lstdel.c ft_lstdelone.c\
+	ft_lstiter.c ft_lstmap.c ft_lstnew.c \
 
 OBJ = $(SRCS:.c=.o)
+
+// .PHONY: all clean fclean re
 
 all: $(NAME)
 
@@ -25,9 +29,9 @@ $(NAME):
 	ranlib $(NAME)
 
 clean: 
-	/bin/rm -f $(OBJ)
+	rm -f $(OBJ)
 
 fclean: clean
-	/bin/rm -f $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
